@@ -7,7 +7,7 @@ st.set_page_config(page_title="Query Similarity Search", layout="wide")
 
 st.title("Ënter Query Here")
 
-query = st.text_input('')
+query = st.text_input('Enter Query Here')
 
 st.write(query)
 number_of_sentences = st.number_input('Insert a number',format = '%d',min_value=1)
