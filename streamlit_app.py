@@ -3,7 +3,7 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
-st.set_page_confifg(page_title="Query Similarity Search", layout="wide")
+st.set_page_config(page_title="Query Similarity Search", layout="wide")
 
 st.title("Ënter Query Here")
 
