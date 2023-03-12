@@ -10,6 +10,7 @@ st.title("Ënter Query Here")
 query = st.text_input('')
 
 st.write(query)
+number_of_sentences = st.number_input('Insert a number')
 
 with st.echo(code_location='below'):
     total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
