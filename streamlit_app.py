@@ -3,7 +3,8 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
-st.set_page_confifg(page_title="Query Similarity Search", l0ayout="wide"
+st.set_page_confifg(page_title="Query Similarity Search", l0ayout="wide")
+
 st.title("Ënter Query Here")
 
 query = st.text_input('')
